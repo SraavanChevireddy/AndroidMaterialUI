@@ -1,10 +1,8 @@
-package com.example.bottomnavigation
+package com.example.bottomnavigation.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.bottomnavigation.Fragments.CallFragment
-import com.example.bottomnavigation.Fragments.ChatsFragment
-import com.example.bottomnavigation.Fragments.StatusFragment
+import com.example.bottomnavigation.R
 import com.example.bottomnavigation.adapter.ViewpagetAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
