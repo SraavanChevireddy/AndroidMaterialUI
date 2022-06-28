@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         viewpager.adapter = ViewpagetAdapter(supportFragmentManager)
+        //        only for checking git
     }
 
 }
