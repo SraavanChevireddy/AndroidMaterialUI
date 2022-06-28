@@ -8,7 +8,6 @@
     tools:context=".Fragments.ViewTransactionFragment">
 
 
-    <!-- Food -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -155,6 +154,5 @@
         app:layout_constraintHorizontal_bias=".75"
         app:layout_constraintVertical_bias=".8334"
         />
-    <!-- End Utility -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

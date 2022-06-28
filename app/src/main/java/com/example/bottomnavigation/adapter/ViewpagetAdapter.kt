@@ -17,6 +17,7 @@ class ViewpagetAdapter(supportFragmentManager: FragmentManager):FragmentPagerAda
     override fun getItem(position: Int): Fragment {
         when(position){
             0 -> {
+
                 return ChatsFragment()
             }
             1 ->{

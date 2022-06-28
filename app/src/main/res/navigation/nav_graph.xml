@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_mainFragment_to_viewBalanceFragment"
             app:destination="@id/viewBalanceFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_chooseRecipientFragment"
+            app:destination="@id/chooseRecipientFragment" />
     </fragment>
     <fragment
         android:id="@+id/viewTransactionFragment"
@@ -27,4 +30,31 @@
         android:name="com.example.bottomnavigation.Fragments.ViewBalanceFragment"
         android:label="fragment_view_balance"
         tools:layout="@layout/fragment_view_balance" />
+    <fragment
+        android:id="@+id/chooseRecipientFragment"
+        android:name="com.example.myapplication.ChooseRecipientFragment"
+        android:label="ChooseRecipientFragment" >
+        <action
+            android:id="@+id/action_chooseRecipientFragment_to_specifyAmountFragment"
+            app:destination="@id/specifyAmountFragment" />
+        <action
+            android:id="@+id/action_chooseRecipientFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/specifyAmountFragment"
+        android:name="com.example.myapplication.SpecifyAmountFragment"
+        android:label="SpecifyAmountFragment" >
+        <action
+            android:id="@+id/action_specifyAmountFragment_to_chooseRecipientFragment"
+            app:destination="@id/chooseRecipientFragment" />
+        <action
+            android:id="@+id/action_specifyAmountFragment_to_confirmation"
+            app:destination="@id/confirmation" />
+    </fragment>
+    <activity
+        android:id="@+id/confirmation"
+        android:name="com.example.bottomnavigation.activities.Confirmation"
+        android:label="activity_confirmation"
+        tools:layout="@layout/activity_confirmation" />
 </navigation>

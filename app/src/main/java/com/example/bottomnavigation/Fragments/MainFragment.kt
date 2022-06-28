@@ -39,6 +39,7 @@ class MainFragment : Fragment(),View.OnClickListener {
         {
             R.id.view_transactions_btn ->navController!!.navigate(R.id.action_mainFragment_to_viewTransactionFragment)
             R.id.view_balance_btn-> navController!!.navigate(R.id.action_mainFragment_to_viewBalanceFragment)
+            R.id.send_money_btn->navController!!.navigate(R.id.action_mainFragment_to_chooseRecipientFragment)
 
         }
     }
